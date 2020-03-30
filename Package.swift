@@ -2,7 +2,7 @@
 
 import PackageDescription
 
- let package = Package(
+let package = Package(
      name: "SwiftCharts",
      platforms: [
          .iOS(.v8),
@@ -13,11 +13,7 @@ import PackageDescription
              targets: ["SwiftCharts"]),
      ],
      targets: [
-         .target(
-             name: "SwiftCharts",
-             dependencies: []),
-         .testTarget(
-             name: "SwiftChartsTests",
-             dependencies: ["SwiftCharts"]),
-     ]
+        .target(name: "SwiftCharts")
+     ],
+     swiftLanguageVersions: [.v5]
  )
