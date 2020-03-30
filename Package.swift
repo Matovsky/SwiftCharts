@@ -13,7 +13,7 @@ let package = Package(
      targets: [
         .target(
                name: "SwiftCharts",
-               path: "SwiftCharts/SwiftCharts"
+               path: "SwiftCharts"
         )
      ],
      swiftLanguageVersions: [.v5]
