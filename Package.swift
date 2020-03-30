@@ -12,6 +12,9 @@ import PackageDescription
              name: "SwiftCharts",
              targets: ["SwiftCharts"]),
      ],
+     dependencies: [
+         .package(url: "https://github.com/Matovsky/SwiftCharts.git", from: "0.6.5"),
+     ],
      targets: [
          .target(
              name: "SwiftCharts",
