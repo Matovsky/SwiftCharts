@@ -13,7 +13,7 @@ let package = Package(
      targets: [
         .target(
                name: "SwiftCharts",
-               path: "SwiftCharts"
+               path: "SwiftCharts/Layers"
         )
      ]
  )
