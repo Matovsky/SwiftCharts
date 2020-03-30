@@ -90,6 +90,13 @@ Add to your Cartfile:
 github "i-schuetz/SwiftCharts" ~> 0.6.5
 ```
 
+### Swift Package Manager (Xcode 11.x)
+
+In Xcode go to File > Swift Package > Add Package Dependency
+```
+https://github.com/Matovsky/SwiftCharts.git
+```
+
 ## Contribute
 
 Contributions are highly appreciated! To submit one:
