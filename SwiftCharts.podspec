@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors = { "Ivan Schuetz" => "ivanschuetz@gmail.com"} 
   s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "9.0"
-  s.source = { :git => "https://github.com/Matovsky/SwiftCharts.git", :tag => '0.6.5'}
+  s.source = { :git => "https://github.com/i-schuetz/SwiftCharts.git", :tag => '0.6.5'}
   s.source_files = 'SwiftCharts/*.swift', 'SwiftCharts/**/*.swift'
   s.frameworks = "Foundation", "UIKit", "CoreGraphics"
   s.swift_version = '5.0'
