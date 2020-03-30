@@ -5,7 +5,7 @@ import PackageDescription
  let package = Package(
      name: "SwiftCharts",
      platforms: [
-         .iOS(.v7),
+         .iOS(.v8),
      ],
      products: [
          .library(
