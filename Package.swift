@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.0
 
 import PackageDescription
 
@@ -13,7 +13,7 @@ let package = Package(
      targets: [
         .target(
                name: "SwiftCharts",
-               path: "SwiftCharts/Layers"
+               path: "SwiftCharts"
         )
      ]
  )
